@@ -67,7 +67,7 @@ public class DaoHandler extends AbstractAnnotationHandler implements InvocationH
         String executeSql = parseSqlTemplate(method, templateSql, sqlParamsMap);
 
         // Step5:组装sql参数
-        installPlaceholderSqlParam(dataParam, templateSql, sqlParamsMap);
+        installPlaceholderSqlParam(dataParam, executeSql, sqlParamsMap);
 
         // Step5: 执行Sql返回结果
         return excuteSql(executeSql, dataParam);
