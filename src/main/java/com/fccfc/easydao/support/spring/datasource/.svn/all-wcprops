@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MEANS/!svn/ver/305/10%20Code/o2o/trunk/framework/framework-dao/src/main/java/com/fccfc/framework/dao/support/spring/datasource
+END
+DataSourceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MEANS/!svn/ver/305/10%20Code/o2o/trunk/framework/framework-dao/src/main/java/com/fccfc/framework/dao/support/spring/datasource/DataSourceType.java
+END
+DataSourceContextHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MEANS/!svn/ver/305/10%20Code/o2o/trunk/framework/framework-dao/src/main/java/com/fccfc/framework/dao/support/spring/datasource/DataSourceContextHolder.java
+END
+DynamicDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MEANS/!svn/ver/305/10%20Code/o2o/trunk/framework/framework-dao/src/main/java/com/fccfc/framework/dao/support/spring/datasource/DynamicDataSource.java
+END
