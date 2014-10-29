@@ -23,27 +23,27 @@ public class Emp implements Serializable {
      */
     private static final long serialVersionUID = 2708527033591084067L;
 
-    private int empno;
+    private Integer empno;
 
     private String ename;
 
     private String job;
 
-    private int mgr;
+    private Integer mgr;
 
     private Date hiredate;
 
-    private double sal;
+    private Double sal;
 
-    private double comm;
+    private Double comm;
 
-    private int deptno;
+    private Integer deptno;
 
-    public int getEmpno() {
+    public Integer getEmpno() {
         return empno;
     }
 
-    public void setEmpno(int empno) {
+    public void setEmpno(Integer empno) {
         this.empno = empno;
     }
 
@@ -63,11 +63,11 @@ public class Emp implements Serializable {
         this.job = job;
     }
 
-    public int getMgr() {
+    public Integer getMgr() {
         return mgr;
     }
 
-    public void setMgr(int mgr) {
+    public void setMgr(Integer mgr) {
         this.mgr = mgr;
     }
 
@@ -79,27 +79,27 @@ public class Emp implements Serializable {
         this.hiredate = hiredate;
     }
 
-    public double getSal() {
+    public Double getSal() {
         return sal;
     }
 
-    public void setSal(double sal) {
+    public void setSal(Double sal) {
         this.sal = sal;
     }
 
-    public double getComm() {
+    public Double getComm() {
         return comm;
     }
 
-    public void setComm(double comm) {
+    public void setComm(Double comm) {
         this.comm = comm;
     }
 
-    public int getDeptno() {
+    public Integer getDeptno() {
         return deptno;
     }
 
-    public void setDeptno(int deptno) {
+    public void setDeptno(Integer deptno) {
         this.deptno = deptno;
     }
 

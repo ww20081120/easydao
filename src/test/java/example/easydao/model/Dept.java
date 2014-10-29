@@ -8,6 +8,7 @@ package example.easydao.model;
 import java.io.Serializable;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * <Description> <br>
@@ -25,17 +26,18 @@ public class Dept implements Serializable {
      */
     private static final long serialVersionUID = -5079921651065717060L;
 
-    private int deptno;
+    @Id
+    private Integer deptno;
 
     private String dname;
 
     private String loc;
 
-    public int getDeptno() {
+    public Integer getDeptno() {
         return deptno;
     }
 
-    public void setDeptno(int deptno) {
+    public void setDeptno(Integer deptno) {
         this.deptno = deptno;
     }
 

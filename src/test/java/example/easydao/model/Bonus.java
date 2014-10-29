@@ -29,9 +29,9 @@ public class Bonus implements Serializable {
 
     private String job;
 
-    private double sal;
+    private Double sal;
 
-    private double comm;
+    private Double comm;
 
     public String getEname() {
         return ename;
@@ -49,19 +49,19 @@ public class Bonus implements Serializable {
         this.job = job;
     }
 
-    public double getSal() {
+    public Double getSal() {
         return sal;
     }
 
-    public void setSal(double sal) {
+    public void setSal(Double sal) {
         this.sal = sal;
     }
 
-    public double getComm() {
+    public Double getComm() {
         return comm;
     }
 
-    public void setComm(double comm) {
+    public void setComm(Double comm) {
         this.comm = comm;
     }
 

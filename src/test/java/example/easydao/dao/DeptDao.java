@@ -7,6 +7,8 @@ package example.easydao.dao;
 
 import java.util.List;
 
+import org.hibernate.transform.ResultTransformer;
+
 import com.fccfc.easydao.DaoException;
 import com.fccfc.easydao.annotation.DAO;
 import com.fccfc.easydao.annotation.Sql;

@@ -22,33 +22,33 @@ public class Salgrade implements Serializable {
      */
     private static final long serialVersionUID = 874500062940086497L;
 
-    private int grade;
+    private Integer grade;
 
-    private double losal;
+    private Double losal;
 
-    private double hisal;
+    private Double hisal;
 
-    public int getGrade() {
+    public Integer getGrade() {
         return grade;
     }
 
-    public void setGrade(int grade) {
+    public void setGrade(Integer grade) {
         this.grade = grade;
     }
 
-    public double getLosal() {
+    public Double getLosal() {
         return losal;
     }
 
-    public void setLosal(double losal) {
+    public void setLosal(Double losal) {
         this.losal = losal;
     }
 
-    public double getHisal() {
+    public Double getHisal() {
         return hisal;
     }
 
-    public void setHisal(double hisal) {
+    public void setHisal(Double hisal) {
         this.hisal = hisal;
     }
 
