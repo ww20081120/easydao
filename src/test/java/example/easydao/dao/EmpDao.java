@@ -6,6 +6,7 @@
 package example.easydao.dao;
 
 import java.util.List;
+import java.util.Map;
 
 import org.hibernate.transform.ResultTransformer;
 
@@ -26,10 +27,19 @@ import example.easydao.model.Emp;
  */
 @DAO
 public interface EmpDao {
+
+    @Sql("select * from emp")
+    List<Map<String,Object>> selectAll();
     
-    @Sql(bean=Emp.class)
-    List<Emp> queryEmp(@Param("dept")Dept dept);
+    @Sql("select * from emp where empno = :empno")
+    Map<String,Object> selectOne(@Param("empno") int empno);
     
+    @Sql(value="select * from emp where deptno = :dept.deptno", bean=Emp.class)
+    List<Emp> selectDeptEmp(@Param("deptno")Dept dept, @Param(Param.pageIndex)int pageIndex,@Param(Param.pageSize)int pageSize);
+    
+    @Sql(bean = Emp.class)
+    List<Emp> queryEmp(@Param("dept") Dept dept);
+
     @Sql("select count(*) from emp")
     int listCount(ResultTransformer transformer);
 }
