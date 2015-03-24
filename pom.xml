@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.fccfc</groupId>
+	<artifactId>easydao</artifactId>
+	<version>${easydao.version}</version>
+	<packaging>pom</packaging>
+	<description>Easydao是简单易用的轻量级DAO(Data Access Object)框架</description>
+	<properties>
+		<easydao.version>0.1-SNAPSHOT</easydao.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<modules>
+		<module>core</module>
+		<module>jdbc</module>
+		<module>support-jdbc</module>
+		<module>support-sh</module>
+		<module>support-ztesoft</module>
+		<module>demo</module>
+	</modules>
+</project>
